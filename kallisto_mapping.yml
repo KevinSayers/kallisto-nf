@@ -1,0 +1,9 @@
+bootstrap: 100
+fragment_len: 180
+fragment_sd: 20
+index:
+  class: File
+  path: transcriptome.index
+read:
+  class: File
+  path: /home/ksayers/cwlconversion_work/kallisto-nf/tutorial/reads/SRR493366.fastq

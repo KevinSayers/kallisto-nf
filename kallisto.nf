@@ -91,6 +91,7 @@ process index {
 
 
 process mapping {
+	echo true
     tag "reads: $name"
 
     input:

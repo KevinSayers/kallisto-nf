@@ -1,0 +1,12 @@
+fileName: "transcriptome.index"
+transcriptome:
+  class: File
+  path: tutorial/transcriptome/transcriptome.fa
+bootstrap: 100
+fragment_len: 180
+fragment_sd: 20
+read:
+  - class: File
+    path: /home/ksayers/cwlconversion_work/kallisto-nf/tutorial/reads/SRR493366.fastq
+  - class: File
+    path: /home/ksayers/cwlconversion_work/kallisto-nf/tutorial/reads/SRR493367.fastq

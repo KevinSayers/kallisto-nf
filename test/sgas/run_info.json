@@ -1,0 +1,9 @@
+{
+	"n_targets": 16706,
+	"n_bootstraps": 100,
+	"n_processed": 100000,
+	"kallisto_version": "0.42.4",
+	"index_version": 10,
+	"start_time": "Fri May  5 12:56:45 2017",
+	"call": "kallisto quant --single -l 180 -s 20 -b 100 -i transcriptome.index -t 1 -o kallisto_SRR493367 SRR493367.fastq"
+}
