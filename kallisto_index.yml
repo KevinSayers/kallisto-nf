@@ -1,0 +1,4 @@
+fileName: "transcriptome.index"
+transcriptome:
+  class: File
+  path: tutorial/transcriptome/transcriptome.fa
