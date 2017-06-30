@@ -49,10 +49,14 @@ inputs:
      inputBinding:
        position: 7
 outputs:
-  outdir:
-    type: Directory
+  outfiles:
+    type: File[]
     outputBinding:
-      glob: .
+      glob: "data/*"
+  sample:
+    type: string
+    outputBinding:
+      outputEval: ${return inputs.read.rootname}
 
 
 

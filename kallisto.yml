@@ -2,7 +2,7 @@ fileName: "transcriptome.index"
 transcriptome:
   class: File
   path: tutorial/transcriptome/transcriptome.fa
-bootstrap: 100
+bootstrap: 5
 fragment_len: 180
 fragment_sd: 20
 read:

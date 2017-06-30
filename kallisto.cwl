@@ -17,13 +17,7 @@ inputs:
   read: File[]
 
 
-outputs:
-  index:
-    type: File
-    outputSource: indexstep/index
-  map:
-    type: Directory[]
-    outputSource: mapstep/outdir
+outputs: []
 
 steps:
   indexstep:
@@ -40,10 +34,6 @@ steps:
       fragment_sd: fragment_sd
       index: indexstep/index
       read: read
-    out: [outdir]
+    out: [outfiles, sample]
     scatter:
       - read
-    
-
-
-

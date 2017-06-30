@@ -2,3 +2,4 @@
 2017-05-05 12:08:22	3m 7s	big_euclid	OK	6870724a35f9c1d93552329c6fd72be5	a8e80328-6d19-45d6-b9d3-645e81b71b87	nextflow run kallisto.nf
 2017-05-05 14:56:14	1m 53s	gloomy_thompson	OK	79317089917466dac1d8f355f850cea9	804450b8-43f3-4bc0-ac4f-0e3cb3664bc4	nextflow run kallisto.nf
 2017-05-05 14:59:19	1m 54s	romantic_heisenberg	OK	8b8807f89d12612644e107a869b5f06d	36181c9d-570b-4981-92b8-6bcb97d997df	nextflow run kallisto.nf
+2017-06-30 16:31:01	1m 54s	desperate_borg	OK	5828778132cbc47223ba746c3f887fd5	f8ab3f63-aab3-42f4-b1b2-a0c22bb801de	nextflow run kallisto.nf
