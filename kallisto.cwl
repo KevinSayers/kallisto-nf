@@ -37,3 +37,9 @@ steps:
     out: [outfiles, sample]
     scatter:
       - read
+  organize:
+    run: reorder.cwl
+    in:
+      outfiles: mapstep/outfiles
+      sample: mapstep/sample
+    out: [out]

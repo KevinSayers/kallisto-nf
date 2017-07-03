@@ -3,8 +3,11 @@ class: ExpressionTool
 requirements:
   - class: InlineJavascriptRequirement
 inputs:
-  outfiles: File
-  sample: string
+  outfiles:
+    type:
+      type: array
+      items: File
+  sample: string[]
 outputs:
   out: Directory
 expression: |

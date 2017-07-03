@@ -50,13 +50,13 @@ inputs:
        position: 7
 outputs:
   outfiles:
-    type: File[]
+    type: File
     outputBinding:
-      glob: "data/*"
+      glob: "data/*.tsv"
   sample:
     type: string
     outputBinding:
-      outputEval: ${return inputs.read.rootname}
+      outputEval: ${return String('Test')}
 
 
 
