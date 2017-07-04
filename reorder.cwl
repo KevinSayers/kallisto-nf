@@ -3,18 +3,21 @@ class: ExpressionTool
 requirements:
   - class: InlineJavascriptRequirement
 inputs:
-  outfiles:
-    type:
-      type: array
-      items: File
-  sample: string[]
+  tsvFile:
+    type: File
+  h5File:
+    type: File
+  jsonFile:
+    type: File
+  sample:
+    type: string
 outputs:
   out: Directory
 expression: |
   ${
     return {"out": {
       "class": "Directory", 
-      "basename": inputs.sample,
-      "listing": [inputs.outfiles]
+      "basename": String("kallisto/" + inputs.sample),
+      "listing": [inputs.tsvFile, inputs.h5File, inputs.jsonFile]
     } };
   }

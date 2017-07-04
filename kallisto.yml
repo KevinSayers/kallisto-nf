@@ -7,6 +7,14 @@ fragment_len: 180
 fragment_sd: 20
 read:
   - class: File
-    path: /home/ksayers/cwlconversion_work/kallisto-nf/tutorial/reads/SRR493366.fastq
+    path: tutorial/reads/SRR493366.fastq
   - class: File
-    path: /home/ksayers/cwlconversion_work/kallisto-nf/tutorial/reads/SRR493367.fastq
+    path: tutorial/reads/SRR493367.fastq
+  - class: File
+    path: tutorial/reads/SRR493368.fastq
+  - class: File
+    path: tutorial/reads/SRR493369.fastq
+  - class: File
+    path: tutorial/reads/SRR493370.fastq
+  - class: File
+    path: tutorial/reads/SRR493371.fastq

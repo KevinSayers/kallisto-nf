@@ -3,4 +3,5 @@ experiment:
   path: tutorial/experiment/hiseq_info.txt
 dataFolder: 
   class: Directory
-  path: /home/ksayers/cwlconversion_work/kallisto-nf/test
+  path: kallisto/
+dataName: kallisto

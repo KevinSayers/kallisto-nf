@@ -17,7 +17,10 @@ inputs:
   read: File[]
 
 
-outputs: []
+outputs:
+  finalout:
+    type: Directory[]
+    outputSource: organize/out
 
 steps:
   indexstep:
@@ -34,12 +37,20 @@ steps:
       fragment_sd: fragment_sd
       index: indexstep/index
       read: read
-    out: [outfiles, sample]
+    out: [tsvFile, h5File, jsonFile, sample]
     scatter:
       - read
   organize:
     run: reorder.cwl
     in:
-      outfiles: mapstep/outfiles
+      tsvFile: mapstep/tsvFile
+      h5File: mapstep/h5File
+      jsonFile: mapstep/jsonFile
       sample: mapstep/sample
     out: [out]
+    scatterMethod: dotproduct
+    scatter:
+      - tsvFile
+      - h5File
+      - jsonFile
+      - sample

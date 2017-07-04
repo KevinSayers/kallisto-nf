@@ -49,14 +49,22 @@ inputs:
      inputBinding:
        position: 7
 outputs:
-  outfiles:
+  tsvFile:
     type: File
     outputBinding:
       glob: "data/*.tsv"
+  h5File:
+    type: File
+    outputBinding:
+      glob: "data/*.h5"
+  jsonFile:
+    type: File
+    outputBinding:
+      glob: "data/*.json"
   sample:
     type: string
     outputBinding:
-      outputEval: ${return String('Test')}
+      outputEval: $(inputs.read.nameroot)
 
 
 

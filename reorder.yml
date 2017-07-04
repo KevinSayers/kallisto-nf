@@ -1,0 +1,4 @@
+outfiles:
+  class: File
+  path: README.md
+sample: mysample
