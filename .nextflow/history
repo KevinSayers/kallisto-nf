@@ -7,3 +7,4 @@
 2017-07-04 17:32:43	4.1s	sleepy_brahmagupta	ERR	c2f157b06793286cc6305bdc828a8012	c362b3ff-f5c4-4637-b342-95cb49b770d2	nextflow run sleuth.nf
 2017-07-04 17:37:30	28.8s	elegant_jennings	OK	c2f157b06793286cc6305bdc828a8012	7a1b9c04-cce1-48de-84cf-c7891dcde4b7	nextflow run sleuth.nf
 2017-07-04 18:05:45	33.8s	amazing_davinci	OK	c2f157b06793286cc6305bdc828a8012	0cd47d0e-61e9-423e-8587-57c9c2d68802	nextflow run sleuth.nf
+2017-07-05 14:14:21	28s	tender_fermi	OK	c2f157b06793286cc6305bdc828a8012	36be1b03-5a5a-4bf2-9fbf-77e30c48ed9a	nextflow run sleuth.nf

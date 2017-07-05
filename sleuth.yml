@@ -4,4 +4,6 @@ experiment:
 dataFolder: 
   class: Directory
   path: kallisto/
-dataName: kallisto
+sleuthenv:
+  class: File
+  path: bin/sleuth.R
