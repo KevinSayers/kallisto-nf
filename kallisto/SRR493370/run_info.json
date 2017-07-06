@@ -1,9 +1,0 @@
-{
-	"n_targets": 16706,
-	"n_bootstraps": 5,
-	"n_processed": 100000,
-	"kallisto_version": "0.42.4",
-	"index_version": 10,
-	"start_time": "Thu Jul  6 15:17:25 2017",
-	"call": "kallisto quant --single -l 180 -s 20 -b 5 -i /var/lib/cwl/stg66c6e9aa-3785-42da-8a52-51a5ffacde28/transcriptome.index -t 2 -o data /var/lib/cwl/stg487e0898-31f5-44ac-b8ec-5be3f652fd49/SRR493370.fastq"
-}
