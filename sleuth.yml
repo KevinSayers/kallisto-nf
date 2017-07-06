@@ -7,3 +7,4 @@ dataFolder:
 sleuthenv:
   class: File
   path: bin/sleuth.R
+dataName: kallisto

@@ -17,7 +17,7 @@ expression: |
   ${
     return {"out": {
       "class": "Directory", 
-      "basename": String("kallisto/" + inputs.sample),
+      "basename": String(inputs.sample),
       "listing": [inputs.tsvFile, inputs.h5File, inputs.jsonFile]
     } };
   }

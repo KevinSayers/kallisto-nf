@@ -7,9 +7,7 @@ hints:
 
 requirements:
   - class: InlineJavascriptRequirement
-  - class: InitialWorkDirRequirement
-    listing:
-      - $(inputs.sleuthenv)
+
 
 baseCommand: [sleuth.R]
 
@@ -24,4 +22,15 @@ inputs:
      inputBinding:
        position: 2
 
-outputs: []
+outputs:
+   geneTable:
+     type: File
+     outputBinding:
+       glob: "gene_table_results.txt"
+   sleuthObj:
+     type: File
+     outputBinding:
+       glob: "sleuth_object.so"
+
+   
+   

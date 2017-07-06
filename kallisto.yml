@@ -18,3 +18,7 @@ read:
     path: tutorial/reads/SRR493370.fastq
   - class: File
     path: tutorial/reads/SRR493371.fastq
+expFile:
+  class: File
+  path: tutorial/experiment/hiseq_info.txt
+expName: kallisto

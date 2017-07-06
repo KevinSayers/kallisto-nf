@@ -55,4 +55,5 @@ RUN wget -q https://github.com/pachterlab/kallisto/archive/v0.42.4.zip && \
     cmake .. && \
 	make && \
 	make install
-  
+ 
+COPY bin/sleuth.R /bin/sleuth.R

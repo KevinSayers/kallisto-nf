@@ -15,12 +15,21 @@ inputs:
   fragment_len: int
   fragment_sd: int
   read: File[]
+  expFile: File
+  expName: string
 
 
 outputs:
-  finalout:
-    type: Directory[]
-    outputSource: organize/out
+  kallistoResult:
+    type: Directory
+    outputSource: combine/out
+  geneTableResult:
+    type: File
+    outputSource: sleuth/geneTable
+  sleuthObjResult:
+    type: File
+    outputSource: sleuth/sleuthObj
+
 
 steps:
   indexstep:
@@ -54,3 +63,15 @@ steps:
       - h5File
       - jsonFile
       - sample
+  combine:
+    run: combine.cwl
+    in: 
+      folders: organize/out
+    out: [out]
+  sleuth:
+    run: sleuth.cwl
+    in:
+      dataFolder: combine/out
+      experiment: expFile
+    out: [geneTable, sleuthObj]
+

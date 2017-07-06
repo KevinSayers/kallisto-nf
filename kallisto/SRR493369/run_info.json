@@ -4,6 +4,6 @@
 	"n_processed": 100000,
 	"kallisto_version": "0.42.4",
 	"index_version": 10,
-	"start_time": "Wed Jul  5 11:08:31 2017",
-	"call": "kallisto quant --single -l 180 -s 20 -b 5 -i /var/lib/cwl/stgf4225186-faaf-4444-bcd7-271216af410a/transcriptome.index -t 2 -o data /var/lib/cwl/stg114e1717-95d3-4693-bb41-b255413ede6f/SRR493369.fastq"
+	"start_time": "Thu Jul  6 15:17:18 2017",
+	"call": "kallisto quant --single -l 180 -s 20 -b 5 -i /var/lib/cwl/stg87909868-765b-4abe-b960-91a205911b47/transcriptome.index -t 2 -o data /var/lib/cwl/stg41ded0bb-5c62-4285-b443-96b67d866ed0/SRR493369.fastq"
 }
